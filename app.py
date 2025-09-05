@@ -7,11 +7,11 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
+st.title("Resumenes para todos")
 image = Image.open('gato_raton.png')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Quieres ver una serie nueva pero simplemente leer el resumen no es suficiente? Escribe cualquier texto y escuchalo aquí!")
 
 
 try:
@@ -28,8 +28,8 @@ A pesar de la barrera inicial, Itsuomi queda fascinado por ella y decide aprende
 *— Suu Morishita*
 """)
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
-text = st.text_area("Ingrese El texto a escuchar.")
+st.markdown(f"Quieres escucharlo? Copia el texto o ingresa tu propio texto!")
+text = st.text_area("Ingrese el texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
