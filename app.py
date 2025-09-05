@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Resúmenes en voz alta (˶ᵔ ᵕ ᵔ˶)")
-image = Image.open('yuki.gif')
+image = Image.open('A_Sign_of_Affection_Key_Visual.webp')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Quieres ver una serie nueva pero simplemente leer el resumen no es suficiente? Escribe cualquier texto y escuchalo aquí! ⋆౨ৎ˚⟡˖ ࣪")
