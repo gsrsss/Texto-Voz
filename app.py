@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Resúmenes en voz alta (˶ᵔ ᵕ ᵔ˶)")
-image = Image.open('gato_raton.png')
+image = Image.open('yuki.gif')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Quieres ver una serie nueva pero simplemente leer el resumen no es suficiente? Escribe cualquier texto y escuchalo aquí! ⋆౨ৎ˚⟡˖ ࣪")
